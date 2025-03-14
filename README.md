@@ -39,10 +39,12 @@ cd clip-vs-human-annotations
 ```
 ### **2. Install Dependencies**
 ```bash
+conda install python==3.12.9
 conda install pytorch torchvision cudatoolkit
+conda install pip
 pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
-pip install numpy pandas matplotlib
+pip install numpy pandas matplotlib jupyter
 ```
 ### **3. Run the Analysis**
 Execute the main Jupyter notebook:
